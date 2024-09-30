@@ -1,0 +1,18 @@
+In this program, using C language (with linked list)
+
+- int enterValidNumber(const char* Text) - Function to validate and enter a valid integer number (for ID)
+                                           - if user enter negative or character, ask to reenter agrain
+- float enterValidFloatNumber(const char* Text) - Function to validate and enter a valid float number (for amount)
+                                                - if user enter negative or character, ask to reenter agrain
+- void addTransaction(User* user, const char* transaction) - function to add a transaction to the user's history
+                                                           - call when user want to record each transaction
+- void createAccount() - enable user to create account and add initial deposit
+- User* findUserById(int id) - call when to check user provided's id exist in bank's storage
+- void updateAccount()  - enable user to update personal information
+- void checkBalance() - enable user to check each account's balance
+- void depositMoney() - enable user to add more money to the bank
+- void withdrawMoney() - enable user to take money out from the bank
+- void transferMoney() - allow user to transfer money to another account
+- void deleteAccount()  - allow user to delete unwanted account
+- void viewTransactionHistory() - enable user to see all transactions before about what user did
+- void viewUsers() - can see how many accounts had in bank's storage
